@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTEETS BAKERY</title>
+    <style>
+        body {
+            background: url("sohan.jpg");
+            background-size: cover;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 14px;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            color: white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+        form {
+            color: white;
+            margin: 20px;
+        }
+        label {
+            color: white;
+            font-size: 16px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="color"], input[type="radio"] {
+            background-color: #333;
+            color: white;
+            border: 1px solid #ddd;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        input[type="submit"] {
+            background-color: #575757;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <h1 style=color:purpe></h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter keyword...">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 style="color:white">Welcome to MY WEBSITE!</h1>
+        <p style="color:white">IT'S OUR OFFICIAL WEBSITE.</p>
+    </section>
+
+    <section id="menu">
+        <h2 style="color:white">Our Menu</h2>
+        <table>
+            <tr>
+                <th>ITEM</th>
+                <th>PRICE</th>
+            </tr>
+            <tr>
+                <td>DALGONA COFFEE</td>
+                <td>100tk</td>
+            </tr>
+            <tr>
+                <td>ICE TEA</td>
+                <td>60tk</td>
+            </tr>
+            <tr>
+                <td>LATTE ART COFFEE</td>
+                <td>150tk</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="about">
+        <h2 style="color:white">About Us</h2>
+        <p style="color:white">Our food is so delicious.</p>
+    </section>
+
+    <section id="contact">
+        <h2 style="color:white">Contact Us</h2>
+        <p style="color:white">01987835284</p>
+    </section>
+	<p Style="color:white"> SIGHN IN TO OUR WEB</P>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color"><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="myfile.js"></script>
+</body>
+</html>
+          
